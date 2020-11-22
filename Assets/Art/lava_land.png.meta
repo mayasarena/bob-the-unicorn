@@ -1,0 +1,826 @@
+fileFormatVersion: 2
+guid: 4f6495129266c4c63955c887ec10f4b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -156797686954909009
+    second: lava_land_0
+  - first:
+      213: -2767183020168759966
+    second: lava_land_1
+  - first:
+      213: 8377100726498513907
+    second: lava_land_2
+  - first:
+      213: 7084215923851562736
+    second: lava_land_3
+  - first:
+      213: 145874462839120427
+    second: lava_land_4
+  - first:
+      213: -4162379261079604018
+    second: lava_land_5
+  - first:
+      213: 6182702706789674649
+    second: lava_land_6
+  - first:
+      213: 6061506703425208157
+    second: lava_land_7
+  - first:
+      213: 4297996690210879322
+    second: lava_land_8
+  - first:
+      213: 1068783822461484545
+    second: lava_land_9
+  - first:
+      213: 9212857662266921487
+    second: lava_land_10
+  - first:
+      213: -5079271688507043176
+    second: lava_land_11
+  - first:
+      213: -6631081880679018669
+    second: lava_land_12
+  - first:
+      213: 1954894840201973965
+    second: lava_land_13
+  - first:
+      213: 6550691457222803229
+    second: labig_rock
+  - first:
+      213: 741106562239827295
+    second: lava_land_15
+  - first:
+      213: -7137445082164943894
+    second: lava_land_16
+  - first:
+      213: 3144556362443603480
+    second: lava_land_17
+  - first:
+      213: 2813485472594040348
+    second: thwomp
+  - first:
+      213: -6128505164909611028
+    second: lava_top
+  - first:
+      213: 3426061588295394382
+    second: lava_bottom
+  - first:
+      213: -5123691734361622052
+    second: lava
+  - first:
+      213: -2637723519351924975
+    second: evil_fire
+  - first:
+      213: -1028983170287613730
+    second: green_gem
+  - first:
+      213: 3897728460127807151
+    second: blue_gem
+  - first:
+      213: 8073435615380600196
+    second: purple_gem
+  - first:
+      213: 1474453694263170425
+    second: arrow_right
+  - first:
+      213: 8809680854901254929
+    second: arrow_left
+  - first:
+      213: -3168792125152172467
+    second: tiny_rock
+  - first:
+      213: 3172948688097707883
+    second: fireball
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lava_land_0
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 737
+        width: 220
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2237f9551f2ddf0800000000000000
+      internalID: -156797686954909009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_1
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 510
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265395e44bdf899d0800000000000000
+      internalID: -2767183020168759966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_2
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 268
+        width: 220
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f35c9a1ab0714470800000000000000
+      internalID: 8377100726498513907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 737
+        width: 225
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe865559d0305260800000000000000
+      internalID: 7084215923851562736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_4
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 737
+        width: 224
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22a3531d00460200800000000000000
+      internalID: 145874462839120427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_5
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 510
+        width: 224
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4b5e28d124c36c0800000000000000
+      internalID: -4162379261079604018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_6
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 280
+        width: 222
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e6b0eba5f5dc550800000000000000
+      internalID: 6182702706789674649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 280
+        width: 219
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ffe454b3cce1450800000000000000
+      internalID: 6061506703425208157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 280
+        width: 221
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57f2ddc73d85ab30800000000000000
+      internalID: 4297996690210879322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 44
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e308f493515de00800000000000000
+      internalID: 1068783822461484545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_10
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 119
+        width: 518
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02d7a56b35aadf70800000000000000
+      internalID: 9212857662266921487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_11
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 510
+        width: 225
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892d6d87f4dc289b0800000000000000
+      internalID: -5079271688507043176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_12
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 281
+        width: 221
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f0999992aa9f3a0800000000000000
+      internalID: -6631081880679018669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_13
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 41
+        width: 224
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc09b7bef7e212b10800000000000000
+      internalID: 1954894840201973965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labig_rock
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 544
+        width: 165
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f73fc5c2bb8ea50800000000000000
+      internalID: 6550691457222803229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_15
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1041
+        width: 224
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d0407ed70f84a00800000000000000
+      internalID: 741106562239827295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_16
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1041
+        width: 221
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae323b97383b2fc90800000000000000
+      internalID: -7137445082164943894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_land_17
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1041
+        width: 224
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e35afd955b3ab20800000000000000
+      internalID: 3144556362443603480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thwomp
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 758
+        width: 448
+        height: 446
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1690be71228b0720800000000000000
+      internalID: 2813485472594040348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_top
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 970
+        width: 221
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce77a61d50d23faa0800000000000000
+      internalID: -6128505164909611028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_bottom
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 736
+        width: 221
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4425fcccd0db8f20800000000000000
+      internalID: 3426061588295394382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 727
+        width: 216
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd935ca938df4e8b0800000000000000
+      internalID: -5123691734361622052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_fire
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 947
+        width: 112
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117d5553f6ce46bd0800000000000000
+      internalID: -2637723519351924975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_gem
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 395
+        width: 174
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8c627224158b1f0800000000000000
+      internalID: -1028983170287613730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue_gem
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 396
+        width: 174
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa629d82263871630800000000000000
+      internalID: 3897728460127807151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_gem
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 396
+        width: 172
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4857fb3daea9a0070800000000000000
+      internalID: 8073435615380600196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_right
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 196
+        width: 115
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975915ca2df467410800000000000000
+      internalID: 1474453694263170425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_left
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 198
+        width: 115
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11be2f4df06424a70800000000000000
+      internalID: 8809680854901254929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiny_rock
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 205
+        width: 70
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46ef35e9503604d0800000000000000
+      internalID: -3168792125152172467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 650
+        width: 92
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b670b945504980c20800000000000000
+      internalID: 3172948688097707883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
