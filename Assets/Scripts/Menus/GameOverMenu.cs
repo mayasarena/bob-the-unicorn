@@ -7,7 +7,7 @@ public class GameOverMenu : MonoBehaviour
 {
     // Restart the game if the player presses restart
     public void Restart() {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     // Go to main menu

@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: 9200665109966461002
     second: grass
+  - first:
+      213: -5011449740083095759
+    second: chat_bubble
+  - first:
+      213: 6795238386288759782
+    second: teardrop
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -132,6 +138,48 @@ TextureImporter:
       bones: []
       spriteID: a4891e89b245faf70800000000000000
       internalID: 9200665109966461002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chat_bubble
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 367
+        width: 374
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1379f906301c37ab0800000000000000
+      internalID: -5011449740083095759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teardrop
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 336
+        width: 107
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e317d24f498d4e50800000000000000
+      internalID: 6795238386288759782
       vertices: []
       indices: 
       edges: []

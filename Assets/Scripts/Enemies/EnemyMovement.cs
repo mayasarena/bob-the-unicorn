@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public Transform start, end;
-    private bool moveForward = true;
-    public float speed = 10f;
+    public Transform start, end; // The start and end locations
+    private bool moveForward = true; 
+    public float speed = 10f; // The speed of the movement
 
     void Start()
     {

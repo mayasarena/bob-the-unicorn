@@ -25,6 +25,11 @@ public class HealthManager : MonoBehaviour
     [HideInInspector]
     public bool isInvincible = false;
 
+    // Audio Stuff
+    public AudioSource hitPlayerAudio;
+    public AudioSource deathAudio;
+    public AudioSource healAudio;
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -37,21 +42,25 @@ public class HealthManager : MonoBehaviour
     {
         if (playerIsDead)
         {
-            Die();
+            Die(); // :(
         }
     }
 
     // Hurt the player
     public void HurtPlayer(int damage, bool knockBackPlayer, Transform enemy)
     {
+        // Only hurt the player if they aren't invincible 
         if (!isInvincible)
         {
+            hitPlayerAudio.Play();
+
+            // Knockback the player (if the object has this set to true only)
             if (knockBackPlayer)
             {
                 PlayerController playerController = player.GetComponent<PlayerController>();
                 playerController.knockBackCount = playerController.knockBackLength;
 
-                if (player.transform.position.x < enemy.position.x)
+                if (player.transform.position.x < enemy.position.x) // Check which direction the player is being knocked back
                 {
                     playerController.knockFromRight = false;
                 }
@@ -67,6 +76,7 @@ public class HealthManager : MonoBehaviour
 
         if (currentHealth <= 0) // Kill player
         {
+            deathAudio.Play();
             StartCoroutine(DeathDelay());
         }
     }
@@ -74,6 +84,8 @@ public class HealthManager : MonoBehaviour
     // Heal the player
     public void HealPlayer(int heal)
     {
+        healAudio.Play();
+        
         if ((currentHealth + heal) >= maxHealth) // If health goes above max health, the health is equal to max health
         {
             currentHealth = maxHealth;

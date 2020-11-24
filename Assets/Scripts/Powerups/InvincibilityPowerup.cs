@@ -10,14 +10,16 @@ public class InvincibilityPowerup : MonoBehaviour
     public GameObject rainbowEmblem;
     public GameObject player;
     public HealthManager healthManager;
+    private AudioSource collectionAudio;
 
     void Start()
     {
         timer = invincibleTime;
         startTimer = false;
-        rainbowEmblem.GetComponent<SpriteRenderer>().enabled = false; 
+        rainbowEmblem.GetComponent<SpriteRenderer>().enabled = false; // Make sure rainbow emblem is hidden
         GetComponent<SpriteRenderer>().enabled = true; 
         GetComponent<BoxCollider2D>().enabled = true; 
+        collectionAudio = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -28,9 +30,9 @@ public class InvincibilityPowerup : MonoBehaviour
             if (timer <= 0) // End timer
             {
                 startTimer = false;
-                healthManager.isInvincible = false;
-                rainbowEmblem.GetComponent<SpriteRenderer>().enabled = false; 
-                Destroy(gameObject); // Destroy the game object
+                healthManager.isInvincible = false; // Player is no longer invincible
+                rainbowEmblem.GetComponent<SpriteRenderer>().enabled = false; // Disable emblem
+                Destroy(gameObject); // Destroy the game object when time is up
             }
         }
     }
@@ -38,8 +40,9 @@ public class InvincibilityPowerup : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) { 
         if (other.gameObject.tag == "Player") 
         { 
-            healthManager.isInvincible = true;
-            rainbowEmblem.GetComponent<SpriteRenderer>().enabled = true; 
+            collectionAudio.Play();
+            healthManager.isInvincible = true; // Tell health manager that player is invincible
+            rainbowEmblem.GetComponent<SpriteRenderer>().enabled = true; // Show rainbow emblem on player 
             GetComponent<SpriteRenderer>().enabled = false; 
             GetComponent<BoxCollider2D>().enabled = false; 
             startTimer = true; // Start the timer

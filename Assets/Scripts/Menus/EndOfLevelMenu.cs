@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class EndOfLevelMenu : MonoBehaviour
 {
-    // Load Level 2
+    // Load the next scene
     public void Continue() {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

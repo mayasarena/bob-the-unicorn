@@ -11,6 +11,7 @@ public class WingsPowerup : MonoBehaviour
     public Animator anim;
     private bool startTimer = false;
     public GameObject player;
+    private AudioSource collectionAudio;
 
     void Start()
     {
@@ -18,6 +19,7 @@ public class WingsPowerup : MonoBehaviour
         GetComponent<BoxCollider2D>().enabled = true;
         timer = flyTime;
         startTimer = false;
+        collectionAudio = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -38,6 +40,7 @@ public class WingsPowerup : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) { 
         if (other.gameObject.tag == "Player") 
         { 
+            collectionAudio.Play();
             GetComponent<SpriteRenderer>().enabled = false; // Disable renderer
             GetComponent<BoxCollider2D>().enabled = false; // Disable box collider
             other.GetComponent<PlayerController>().isFlying = true; // Tell player controller that player cannot fly

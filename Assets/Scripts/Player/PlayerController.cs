@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    // Speed and jumping
     public float moveSpeed;
     public float normalSpeed;
     public float slowSpeed;
@@ -13,20 +14,24 @@ public class PlayerController : MonoBehaviour
     [HideInInspector]
     public bool slowDown = false;
 
-    public bool grounded;
+    // Ground stuff
+    private bool grounded;
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask groundLayer;
 
+    // Flying stuff
     [HideInInspector]
     public bool isFlying = false;
     public GameObject wings;
 
+    // Fire powerup stuff
     public Transform firePoint;
     public GameObject fireBall;
     [HideInInspector]
     public bool hasFire = false;
 
+    // Knockback stuff
     public float knockBack;
     [HideInInspector]
     public bool knockFromRight;
@@ -36,6 +41,8 @@ public class PlayerController : MonoBehaviour
     public float disableTime;
     private float disableTimeCount;
 
+    private AudioSource jumpAudio;
+
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>(); // Get rigidbody component
@@ -43,6 +50,7 @@ public class PlayerController : MonoBehaviour
         slowDown = false;
         isFlying = false; 
         wings.GetComponent<SpriteRenderer>().enabled = false; // Make sure wings are disabled
+        jumpAudio = GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
@@ -56,19 +64,19 @@ public class PlayerController : MonoBehaviour
         if (knockBackCount > 0)
         {
             disableTimeCount = disableTime;
-            if (knockFromRight)
+            if (knockFromRight) // Knock to the right
             {
                 rigidBody.velocity = new Vector2(knockBack, knockBack);
             }
 
-            if (!knockFromRight)
+            if (!knockFromRight) // Knock to the left
             {
                 rigidBody.velocity = new Vector2(-knockBack, knockBack);
             }
             knockBackCount -= Time.deltaTime;
         }
 
-        if (disableTimeCount > 0)
+        if (disableTimeCount > 0) // Countdown the timer
         {
             disableTimeCount -= Time.deltaTime;
         }
@@ -99,6 +107,7 @@ public class PlayerController : MonoBehaviour
         {
             if ((Input.GetKeyDown(KeyCode.Space) && grounded && !isFlying) || (Input.GetKeyDown(KeyCode.Space) && isFlying)) // See if spacebar is pressed for JUMP
             {
+                jumpAudio.Play();
                 rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpHeight);
                 wings.GetComponent<SpriteRenderer>().enabled = false;
             }
@@ -115,13 +124,13 @@ public class PlayerController : MonoBehaviour
                 transform.localScale = new Vector3(-1f, 1f, 1f);
             }  
 
-            if (Input.GetKeyDown(KeyCode.Return) && hasFire)
+            if (Input.GetKeyDown(KeyCode.Return) && hasFire) // Shoot fire
             {
                 Instantiate(fireBall, firePoint.position, firePoint.rotation);
             }
         }
 
         anim.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x)); // Find out if Bob is moving
-        anim.SetBool("Grounded", grounded);
+        anim.SetBool("Grounded", grounded); // Find out if Bob is grounded for animator
     }
 }

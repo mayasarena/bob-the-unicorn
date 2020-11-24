@@ -8,6 +8,7 @@ public class EnemyHealthManager : MonoBehaviour
     public int currentHealth;
     public Transform healthBar;
     public GameObject particles;
+    public AudioSource hurtEnemyAudio;
 
     void Start()
     {
@@ -18,6 +19,7 @@ public class EnemyHealthManager : MonoBehaviour
 
     public void HurtEnemy(int damage)
     {
+        hurtEnemyAudio.Play();
         currentHealth -= damage; // Decrease health
         if (currentHealth <= 0)
         {

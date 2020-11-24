@@ -138,3 +138,4 @@ MonoBehaviour:
   player: {fileID: 0}
   damage: 10
   particles: {fileID: 2570227528126906419, guid: 7ff2ef72646cb4fd1a99cdea8ed30ade, type: 3}
+  fireAudio: {fileID: 187020685329914921, guid: cf24a8794555f43c09bf3b2cce9fb969, type: 3}

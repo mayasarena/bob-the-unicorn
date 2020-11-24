@@ -104,6 +104,7 @@ MonoBehaviour:
   damage: 5
   healthManager: {fileID: 0}
   particles: {fileID: 5137338163901505822, guid: 6ed1706e8d5dd4ccca205de2a7a550e9, type: 3}
+  explodeAudio: {fileID: 6938651009557520091, guid: 7eed92bc103b2437a9be7c5607ac06d2, type: 3}
 --- !u!50 &1235186710272193731
 Rigidbody2D:
   serializedVersion: 4

@@ -7,7 +7,7 @@ public class JumpOnEnemy : MonoBehaviour
 
     public int damageToGive;
     private Rigidbody2D rigidBody;
-    public float bounce;
+    public float bounce; // Amount of bounciness
 
     void Start()
     {

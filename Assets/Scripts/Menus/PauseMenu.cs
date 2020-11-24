@@ -7,7 +7,6 @@ public class PauseMenu : MonoBehaviour
 {
 
     public CanvasGroup pauseMenu;
-    private int playerHealth;
     public HealthManager healthManager;
 
     void Start()
@@ -21,7 +20,7 @@ public class PauseMenu : MonoBehaviour
         // Check if player ever presses Escape button, initiate the escape menu
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            playerHealth = healthManager.currentHealth;
+            healthManager.isInvincible = true; // Enemies can't damage player when paused
             pauseMenu.alpha = 1;
             pauseMenu.blocksRaycasts = true;
         }
@@ -31,7 +30,7 @@ public class PauseMenu : MonoBehaviour
     public void Continue() {
         pauseMenu.alpha = 0;
         pauseMenu.blocksRaycasts = false;
-        healthManager.currentHealth = playerHealth;
+        healthManager.isInvincible = false;
     }
 
     // Exit the game
@@ -39,4 +38,5 @@ public class PauseMenu : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
 }

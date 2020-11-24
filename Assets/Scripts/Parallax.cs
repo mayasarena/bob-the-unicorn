@@ -6,17 +6,19 @@ public class Parallax : MonoBehaviour
 {
     private Transform cam;
     private Vector3 lastCamPos;
-    public Vector2 parallaxMultiplier;
+    public Vector2 parallaxMultiplier; // Intensity of effect
     
+    // Parallax effect for background
+
     private void Start()
     {
-        cam = Camera.main.transform;
-        lastCamPos = cam.position;
+        cam = Camera.main.transform; 
+        lastCamPos = cam.position; 
     }
 
     private void LateUpdate()
     {
-        Vector3 camMovement = cam.position - lastCamPos;
+        Vector3 camMovement = cam.position - lastCamPos; 
         transform.position += new Vector3(camMovement.x * parallaxMultiplier.x, camMovement.y * parallaxMultiplier.y);
         lastCamPos = cam.position;
     }

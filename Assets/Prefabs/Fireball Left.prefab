@@ -100,10 +100,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   right: 0
+  up: 0
   damage: 5
   healthManager: {fileID: 0}
-  player: {fileID: 0}
   particles: {fileID: 5137338163901505822, guid: 6ed1706e8d5dd4ccca205de2a7a550e9, type: 3}
+  explodeAudio: {fileID: 6938651009557520091, guid: 7eed92bc103b2437a9be7c5607ac06d2, type: 3}
 --- !u!50 &6055270985400928768
 Rigidbody2D:
   serializedVersion: 4
@@ -167,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6055270985851186832}
   m_Layer: 0
-  m_Name: Fireball
+  m_Name: Fireball Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
