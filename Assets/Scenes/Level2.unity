@@ -16091,7 +16091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1198498025834321037, guid: 1ad3c956db6354491ae96f9ccf411e87, type: 3}
       propertyPath: m_Name
-      value: Red Blob Enemy
+      value: Purple Blob Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1198498025834321038, guid: 1ad3c956db6354491ae96f9ccf411e87, type: 3}
       propertyPath: m_LocalPosition.x
@@ -66420,7 +66420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1198498025834321037, guid: 1ad3c956db6354491ae96f9ccf411e87, type: 3}
       propertyPath: m_Name
-      value: Red Blob Enemy (1)
+      value: Purple Blob Enemy (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1198498025834321038, guid: 1ad3c956db6354491ae96f9ccf411e87, type: 3}
       propertyPath: m_LocalPosition.x
